@@ -7,8 +7,8 @@ function game_init() {
 	global.rightKey = vk_right;
 	global.upKey = vk_up;
 	global.downKey = vk_down;
-	global.jumpKey = ord("D");
-	global.dashKey = ord("SPACE");
+	global.jumpKey = vk_d;
+	global.dashKey = vk_space;
 	global.pauseKey = vk_enter;
 	
 	//Buttons for joystick
